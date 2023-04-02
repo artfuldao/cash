@@ -1,0 +1,10 @@
+[profile.default]
+optimizer = true
+optimizer_runs = 20_000
+auto_detect_solc = true
+solc_version = '0.8.9'
+src = 'contracts'
+out = 'foundry'
+
+[profile.ci]
+verbosity = 4
